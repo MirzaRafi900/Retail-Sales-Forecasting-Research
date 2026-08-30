@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+Notebooks/Research_Insight_01.md
+Notebooks/01_EDA.ipynb
+Notebooks/01_EDA.ipynb
+Dataset/Raw_Data/store.csv
+Dataset/Raw_Data/rossmann_store_sales.json
