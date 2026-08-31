@@ -1,47 +1,48 @@
 # Dataset Analysis
 
-## Dataset Name
+## Dataset Overview
 
-Rossmann Store Sales Dataset
+The Rossmann Store Sales Dataset contains
+1,017,209 observations and 18 features.
 
-## Source
+The target variable is Sales, representing
+daily store sales across multiple Rossmann stores.
 
-Rossmann Store Sales Dataset (Kaggle)
+The dataset includes operational, customer,
+promotional, temporal, and store-specific
+characteristics that can potentially influence
+sales performance.
 
-## Rows
+## Data Quality Assessment
 
-1,017,209
+Missing values were identified primarily within:
 
-## Columns
+- CompetitionDistance (2,642)
+- CompetitionOpenSinceMonth (323,348)
+- CompetitionOpenSinceYear (323,348)
+- Promo2SinceWeek (508,031)
+- Promo2SinceYear (508,031)
+- PromoInterval (508,031)
 
-18
+No duplicate records were detected within the dataset.
 
-## Target Variable
+## Initial Findings
 
-Sales
+Exploratory data analysis revealed that:
 
-## Missing Values
+1. Sales distributions are positively skewed.
 
-CompetitionDistance: 2642
+2. Different store types exhibit different sales patterns.
 
-CompetitionOpenSinceMonth: 323348
+3. Promotional activities significantly increase sales.
 
-CompetitionOpenSinceYear: 323348
+4. Sales vary across different days of the week.
 
-Promo2SinceWeek: 508031
+5. Store operational status directly influences sales.
 
-Promo2SinceYear: 508031
+6. Customer count shows a strong positive relationship
+   with sales performance.
 
-PromoInterval: 508031
-
-## Initial Observations
-
-1. Dataset contains more than one million daily sales records.
-
-2. Sales is the target variable.
-
-3. Multiple store-specific and promotional variables are available.
-
-4. Competition and promotion-related fields contain significant missing values.
-
-5. Dataset is suitable for retail sales forecasting research.
+These observations indicate that retail sales are
+affected by multiple business and operational factors,
+which should be incorporated into forecasting models.
